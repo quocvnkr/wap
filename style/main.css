@@ -1,0 +1,30 @@
+body {
+    background-color: #595647;
+    color: #cdc9c7;
+}
+
+#trait {
+    color: #e5de7e;
+}
+
+h1 {
+    font-size: 3em;
+    color: #a7bee9;
+}
+hr {
+    border-color: #b0aca0;
+    border-width: 1px;
+    width: 99%;
+}
+
+h2 {
+    color: #a7bee9;
+}
+
+a {
+    color: #ba6c61;
+}
+
+#font_itatic {
+    font-style: italic;
+}
