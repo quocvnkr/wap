@@ -6,6 +6,7 @@ body {
 
 p::first-letter {
     font-size: 1.5em;
+    color: #a7bee9;
     float: left;
     line-height: 35px;
     padding-top: 0px;
