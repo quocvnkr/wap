@@ -7,9 +7,9 @@ body {
 p::first-letter {
     font-size: 1.5em;
     float: left;
-    line-height: 40px;
-    padding-top: 1px;
-    padding-right: 4px;
+    line-height: 35px;
+    padding-top: 0px;
+    padding-right: 2px;
 }
 
 .trait {
@@ -49,19 +49,21 @@ a:hover {
     font-style: italic;
 }
 
-ol li ul {
-    list-style: none;
+ol > li > ul {
     padding-left: 0px;
-    color: #e5de7e;
-    font-weight: bold;
 }
 
-ol li ul li {
+ol li > ul > li {
     list-style: none;
-    padding-left: 40px;
+    color: #e5de7e;
+    font-weight: bold;
+} 
+
+ol ul ul li {
+    list-style: none;
     color: #cdc9c7;
-    font-weight: normal;
-}
+    font-weight: normal
+} 
 
 ol {
     display: flex;
