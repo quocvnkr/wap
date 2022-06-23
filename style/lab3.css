@@ -10,7 +10,7 @@ hr {
     width: 99%;
 }
 
-#top-flex {
+#top_flex {
     height: 60px;
     display: flex;
     justify-content: space-between; /* vertical align */
@@ -42,10 +42,10 @@ span {
     width: 80px;
 }
 
-.order-total {
+.order_total {
     text-align: right;
 }
 
-.bottom-functions {
+.bottom_functions {
     text-align: right;
 }
