@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../images/icon.jpeg" type="image/jpeg" rel="icon" />
+    <link href="../style/lab4.css" type="text/css" rel="stylesheet" />
+    <title>Lab 4</title>
+</head>
+
+<body>
+    <div class="header">
+        <span>Workshop Registration</span>
+        <select class="actions">
+            <option selected>More Actions</option>
+            <option>Action 1</option>
+            <option>Action 2</option>
+        </select>
+    </div>
+    <form method="GET" action="#">
+        <div class="content">
+            <div class="pannel">
+                <table>
+                    <tr>
+                        <td colspan="2" class="note">Register now while seats are available!</td>
+                    </tr>
+                    <tr>
+                        <td class="required">First name</td>
+                        <td><input type="text" name="txtFirstName" class="text" required /></td>
+                    </tr>
+                    <tr>
+                        <td class="required">Last name</td>
+                        <td><input type="text" name="txtLastName" class="text" required /></td>
+                    </tr>
+                    <tr>
+                        <td class="required">Company/Institution</td>
+                        <td><input type="text" name="txtCoInsti" class="text" required /></td>
+                    </tr>
+                    <tr>
+                        <td class="required">Address</td>
+                        <td><textarea class="address" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="label">City</td>
+                        <td><input type="text" name="txtCity" class="text" /></td>
+                    </tr>
+                    <tr>
+                        <td class="label">State / Provice Region</td>
+                        <td>
+                            <select name="optState" class="select">
+                                <option>- Select -</option>
+                                <option>Iowa</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">Country</td>
+                        <td>
+                            <select name="optCountry" class="select">
+                                <option>- Select -</option>
+                                <option>China</option>
+                                <option>Vietnam</option>
+                                <option>USA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="required">Email</td>
+                        <td><input type="text" name="txtEmail" class="text" required /></td>
+                    </tr>
+                    <tr>
+                        <td class="required">Phone Number</td>
+                        <td><input type="text" name="txtPhoneNumber" class="text" required /></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pannel">
+                <table>
+                    <tr>
+                        <td class="note" colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="note">Lunch</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Meal Preference</td>
+                        <td>
+                            <select name="optMealPreference" class="select">
+                                <option value="vege">Vegetarian</option>
+                                <option value="seafood">Seafood</option>
+                                <option value="vegan">Vegan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="note">Payment Details</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Payment Mode</td>
+                        <td>
+                            <label><input type="checkbox" name="cash" /> Cash</label><br>
+                            <label><input type="checkbox" name="cheque" /> Cheque</label><br>
+                            <label><input type="checkbox" name="draft" /> Demand Draft</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">DD/Cheque No.</td>
+                        <td><input type="text" name="txtChequeNum" class="text" /></td>
+                    </tr>
+                    <tr>
+                        <td class="label">Drawn On (Bank Name)</td>
+                        <td><input type="text" name="txtDrawnBankName" class="text" /></td>
+                    </tr>
+                    <tr>
+                        <td class="label">Payable at</td>
+                        <td><input type="text" name="txtPayable" class="text" /></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <input type="submit"></input><input type="reset"></input>
+        </div>
+    </form>
+    <hr />
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fquocvnkr.github.io%2Fwap%2Flab4%2F">
+        <img src="../images/html_checker.png" alt="HTML Validator" width="100" />
+    </a>&nbsp;
+    <a
+        href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fquocvnkr.github.io%2Fwap%2Flab4%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+        <img src="../images/css_checker.png" alt="CSS Validator" width="115" />
+    </a>
+</body>
+
+</html>

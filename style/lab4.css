@@ -1,0 +1,86 @@
+body {
+    width: 90%;
+    margin: auto;   
+    border: 1px solid #a2cbbc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    background-color: #a2cbbc;
+    height: 40px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.actions {
+    margin-left: 20px;
+    border-width: 0px;
+    background-color: #a2cbbc;
+}
+
+.content {
+    background-color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+div .pannel {
+    height: 100%;
+    width: 50%;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+table td .text {
+    width: 220px;
+}
+
+table td .select {
+    width: 227px;
+}
+
+table .address {
+    height: 80px;
+    width: 220px;
+}
+table .note{
+    text-decoration: underline;
+    height: 40px;
+}
+
+table .label {
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.required {
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.required::after {
+    content:" *";
+    color: red;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3e3e3;
+    height: 40px;
+}
+.footer > input{
+    margin: 5px 5px;
+}
