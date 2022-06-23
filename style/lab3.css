@@ -10,10 +10,6 @@ hr {
     width: 99%;
 }
 
-.add_cart{
-    width: 30px;
-}
-
 #top-flex {
     height: 60px;
     display: flex;
@@ -46,6 +42,10 @@ span {
     width: 80px;
 }
 
-.order_total {
+.order-total {
+    text-align: right;
+}
+
+.bottom-functions {
     text-align: right;
 }
