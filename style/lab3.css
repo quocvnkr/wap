@@ -1,6 +1,7 @@
 body {
     width: 90%;
     margin: auto;
+    min-width: 800px;
 }
 
 hr {
@@ -48,4 +49,10 @@ span {
 
 .bottom_functions {
     text-align: right;
+}
+.validator {
+    margin-left: -4px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }

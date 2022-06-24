@@ -1,9 +1,18 @@
 body {
     width: 90%;
     margin: auto;   
-    border: 1px solid #a2cbbc;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 880px;
 }
+
+form {
+    border: 1px solid #a2cbbc;
+}
+
+span {
+    font-weight: bold;
+}
+
 .header {
     background-color: #a2cbbc;
     height: 40px;
@@ -79,8 +88,26 @@ table .label {
     justify-content: center;
     align-items: center;
     background-color: #e3e3e3;
-    height: 40px;
+    height: 45px;
 }
 .footer > input{
-    margin: 5px 5px;
+    margin: 4px 4px;
+}
+
+.validator {
+    margin-left: -4px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.button {
+    background-color: #7aa897;
+    border-width: 0px;
+    width: 90px;
+    height: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
 }
