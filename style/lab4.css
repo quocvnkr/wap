@@ -14,6 +14,7 @@ span {
 }
 
 .header {
+    margin-top: 15px;
     background-color: #a2cbbc;
     height: 40px;
     justify-items: center;
@@ -34,10 +35,6 @@ span {
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
-}
-
-.empty {
-    height: 15px;
 }
 
 div .pannel {
