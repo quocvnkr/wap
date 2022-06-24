@@ -36,6 +36,10 @@ span {
     flex-direction: row;
 }
 
+.empty {
+    height: 15px;
+}
+
 div .pannel {
     height: 100%;
     width: 50%;
